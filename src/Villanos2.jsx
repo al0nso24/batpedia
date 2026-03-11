@@ -149,6 +149,41 @@ export default function Villanos2(){
                 </div>
             </div>
 
+            <div className="container mt-5">
+                <div className="row">
+                    <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <h1 className="titulo text-center">
+                            RA'S AL GHUL
+                        </h1>
+                        <hr></hr>
+                        <p>
+                            <strong>Alias: </strong>La Cabeza del Demonio<br></br>
+                            <strong>Habilidad: </strong>Maestro estratega, experto 
+                            en combate y líder de la Liga de los Asesinos
+                        </p>
+                        <hr className="w-25"></hr>
+                        <p>
+                            Es uno de los enemigos más peligrosos e inteligentes de Batman. 
+                            Como líder de la Liga de los Asesinos busca "equilibrar" el  
+                            mundo eliminando la corrupción de la humanidad. A diferencia 
+                            de muchos villanos, sus planes suelen tener una escala global 
+                            y basados en su "visión radical" de salvar el mundo.
+                        </p>
+                        <p>
+                            Gracias a las Fosas de Lázaro, Ra's ha sobrevivido varios siglos, 
+                            lo que le ha permitido acumular poder, experiencia en combate  
+                            y conocimiento. Su inteligencia, recursos y su compleja relación 
+                            de un enorme respeto hacia Batman, lo convierte en un adversario 
+                            único.
+
+                        </p>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                        <img src="/imagenes/ras-al-ghul.png" className="img-fluid" alt="ras-al-ghul"></img>
+                    </div>
+                </div>
+            </div>
+
             <Paginacion></Paginacion>
 
         </div>
