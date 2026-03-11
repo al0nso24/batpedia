@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*Mis estilos:*/
+
+:root {
+  --titulos:  #BA8616;
+  --dorado: #BA8616;
+}
+
+/*Tipo de letra pincipal de la página.*/
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Color dorado principal de la página.*/
+.gold{
+  color: var(--dorado);
+}
+
+/*Para los títulos.*/
+.titulo {
+  color: var(--titulos);
+}
+
+/*Tamaño para las imágenes de las cartas de las secciones (en el inicio).*/
+.secciones .card img {
+  height: 200px;
+}
+
+/*Bordes de las cartas de las secciones.*/
+.secciones .card {
+  border-color: #BA8616;
+  border-width: 1px;
+}
+
+/*Tamaño de las imágenes de la sección "Villanos".*/
+.villanos img {
+  width: 420px;
+  height: 500px;
+}
+
+/*Tamaño de imágenes de los gadgets.*/
+.gadgets img {
+  height: 210px;
+}
+
+/*Para los bordes de las cartas de la sección "Gadgets".*/
+.gadgets .card {
+  border-color: #BA8616;
+  border-width: 2px;
+}
+
+/*Efecto al pasar el cursor sobre las cartas.*/
+.gadgets .card:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+/*Tamaño de las imágenes de los trajes de la sección "Trajes".*/
+.trajes img {
+  width: 100%;
+  height: 410px;
+}
+
+.trajes .card {
+  border-color: #BA8616;
+  border-width: 2px;
+}
+
+/*Los enlaces de las secciones.*/
+
+.enlaces-footer li {
+  list-style: none;
+}
+
+.enlaces-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.enlaces-footer li:hover{
+  list-style: disc;
+}
