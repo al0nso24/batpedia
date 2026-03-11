@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Inicio() {
     return (
         <div>
-            {/**Imagen superior. */}
+            {/**Imagen superior (w-100 para que ocupe todo el ancho). */}
             <img className="img-fluid w-100" src="/imagenes/batman-banner.jpg" alt="batman-banner"></img>
 
             <div className="container mt-5">
