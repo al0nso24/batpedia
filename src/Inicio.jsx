@@ -10,14 +10,16 @@ export default function Inicio() {
                 <div className="row">
                     <div className="col-12 col-md-12 col-lg-12 col-xl-12">
                         <h1 className="titulo text-center">
-                            Conoce todo sobre el caballero de la noche
+                            CONOCE TODO SOBRE EL CABALLERO DE LA NOCHE
                         </h1>
                     </div>
                 </div>
             </div>
 
+            <hr></hr>
+
             <div className="secciones">
-                <div className="container mt-5">
+                <div className="container">
                     <div className="row gy-4">
                         <div className="col-12 col-md-6 col-lg-4 col-xl-4">
                             <div class="card h-100">
