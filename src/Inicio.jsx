@@ -4,7 +4,7 @@ export default function Inicio() {
     return (
         <div>
             {/**Imagen superior. */}
-            <img className="img-fluid" src="/imagenes/batman-banner.jpg" alt="batman-banner"></img>
+            <img className="img-fluid w-100" src="/imagenes/batman-banner.jpg" alt="batman-banner"></img>
 
             <div className="container mt-5">
                 <div className="row">
